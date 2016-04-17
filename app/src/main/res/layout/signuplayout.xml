@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/signup"
+    android:background="@drawable/bg">
+    <TableRow
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="昵称:"
+            android:layout_column="1" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:selectAllOnFocus="true"
+            android:id="@+id/username"
+            android:layout_column="2" />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="性别:"
+            android:layout_column="1" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/sex"
+            android:layout_column="2" />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="年龄:"
+            android:layout_column="1" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/age"
+            android:layout_column="2" />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="爱好:"
+            android:layout_column="1" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/hobby"
+            android:layout_column="2" />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QQ:"
+            android:layout_column="1" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/qqnum"
+            android:layout_column="2" />
+
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        style="?android:textAppearanceSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="16dp"
+
+        android:background="#4080d4"
+        android:gravity="center"
+        android:text="确定"
+        android:textStyle="bold" />
+
+
+</TableLayout>
